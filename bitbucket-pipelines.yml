@@ -1,0 +1,20 @@
+# Template PHP Build
+
+# This template allows you to validate your PHP application.
+# The workflow allows running tests and code linting on the default branch.
+
+image: composer:2.0
+
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Deploy to production
+          deployment: Production
+          script:
+            - pipe: atlassian/ssh-run:0.2.6
+              variables:
+                SSH_USER: $USER
+                SERVER: $SERVER
+                COMMAND: "cd /var/www/html/ebitspaymentsystem && git pull && composer install && php artisan migrate  --force"

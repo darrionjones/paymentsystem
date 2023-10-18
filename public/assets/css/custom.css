@@ -1,0 +1,188 @@
+/** Login **/
+.login-page{
+    background-color: #FFFFFF;
+}
+.login-page .card-login.card-plain {
+    /* background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 60%, #FFFFFF 100%); */
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+    box-shadow: 0 1px 15px 1px rgb(39 39 39 / 10%);
+}
+.login-title h4{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+/** Side Bar **/
+.sidebar[data-color="ebits-blue"]:after, .off-canvas-sidebar[data-color="ebits-blue"]:after {
+    background: #0c2646;
+    opacity: .4;
+}
+.app-sidebar{
+    /** background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%); **/
+    background-color: #0c2646 !important;
+}
+
+.sidebar .nav li.active>a, .sidebar .nav li.active>a>i, .off-canvas-sidebar .nav li.active>a {
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 15px 1px rgb(39 39 39 / 10%);
+    color: #0c2646;
+}
+.sidebar .logo, .off-canvas-sidebar .logo {
+    text-align: center;
+}
+.sidebar .nav li>a, .off-canvas-sidebar .nav li>a {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.sidebar .collapse .nav p, .off-canvas-sidebar .collapse .nav p {
+    line-height: 10px;
+}
+.sidebar .collapse .nav i, .off-canvas-sidebar .collapse .nav i {
+    font-size: 15px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 5px;
+    line-height: 10px;
+    width: 34px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+/** Tables **/
+.table thead tr th{
+    font-size: 1em;
+    font-weight: 500;
+}
+.table tbody tr td{
+    font-size: 0.9em;
+    color: #5d5d5d;
+}
+
+.panel-header {
+    background: #2a5788 !important;
+    color: #fff;
+}
+
+/** Others **/
+.btn-primary {
+    background-color: #1ba2f0;
+    color: #FFFFFF;
+}
+.navbar .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.625rem;
+}
+.form-group .alert-danger{
+    background-color: #fff;
+    color: #ff5050;
+    padding: 0.2rem 0;
+    margin-bottom: 0;
+}
+.font-medium{
+    font-weight: 600 !important;
+}
+.card label {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.btn-sm {
+    font-size: 10px;
+    border-radius: 0.1875rem;
+    padding: 5px 5px;
+}
+.form-group input[type=file] {
+    opacity: 1;
+    position: static;
+}
+.tab-content{
+    padding-top: 2em;
+}
+.nav-tabs{
+    margin-top: 1.2em;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .show>.btn-primary.dropdown-toggle, .show>.btn-primary.dropdown-toggle:focus, .show>.btn-primary.dropdown-toggle:hover {
+    background-color: #0c2646;
+    color: #FFFFFF;
+    box-shadow: none;
+    border-color: #0c2646;
+}
+.table_totals{
+    font-size: 1.0em;
+    font-weight: 600;
+}
+
+/* Customize the progress container */
+.progress {
+    height: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize the progress bar */
+.progress-bar {
+    height: 100%;
+    transition: width 0.5s ease;
+    box-shadow: none;
+}
+
+.transactions-search-form button{
+    margin-top: 0;
+}
+
+.transaction-total{
+    font-size: 1.2em;
+    color: #009140;
+    font-weight: 600;
+}
+
+
+.order-card {
+    color: #fff;
+}
+.order-card-count{
+padding-bottom: 1rem;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+
+.bg-c-yellow {
+    background: linear-gradient(45deg, #FFB64D, #ffcb80);
+}
+
+
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 2rem;
+}
+
+.order-card i {
+    font-size: 2rem;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
